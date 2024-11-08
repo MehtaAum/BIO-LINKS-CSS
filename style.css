@@ -1,0 +1,198 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.maindiv{
+    width: 99.12vw;
+    height: 110vh;
+    background-image: url(./asset/bg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    
+}
+
+.maindiv .subdiv{
+    width: 696px;
+    height: 957px;
+    background-color:#0f0f0f;
+    border-radius: 3.5%;
+
+}
+
+.maindiv .subdiv .linedot{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+}
+
+.maindiv .subdiv .whitediv{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maindiv .subdiv .whitediv .dot{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.maindiv .subdiv .infodiv{
+    width: 100%;
+    height: 321px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.maindiv .subdiv .infodiv .photo{
+    width: 128px;
+    height: 128px;
+    background-image: url(./asset/person\ img.png);
+    background-size: cover;
+    border-radius:50% ;
+}
+
+.maindiv .subdiv .infodiv .infoheading{
+    display: flex;
+}
+
+.maindiv .subdiv .infodiv h1{
+    color: white;
+    margin-top: 16px;
+    font-size: 36px;
+    margin-left: 30px;
+}
+
+.maindiv .subdiv .infodiv img{
+    width: 40px;
+    height: 34px;
+    margin-top: 26px;
+    margin-left: 5px;
+
+}
+
+
+.maindiv .subdiv .infodiv pre{
+    color: rgb(134,134,134);
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 10px;
+    
+}
+
+.maindiv .subdiv .alllinks{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maindiv .subdiv .alllinks .link{
+    width: 600px;
+    height: 76px;
+    background-color: rgb(26,26,26);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+    
+}
+
+.maindiv .subdiv .alllinks .link:hover{
+    transform: scale(1.05);
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
+
+
+}
+
+.maindiv .subdiv .alllinks .link img{
+    padding-inline: 10px;
+}
+
+.maindiv .subdiv .alllinks .link #headingone{
+    font-weight: 700;
+    
+}
+
+.maindiv .subdiv .alllinks .link #headingsec{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(134,134,134);
+}
+
+.maindiv .subdiv .alllinks #img2{
+    width: 92px;
+    height: 74px;
+    margin-left: -5px;
+}
+.maindiv .subdiv .alllinks #img3{
+    width: 92px;
+    height: 70px;
+    margin-left: -1px;
+}
+.maindiv .subdiv .alllinks #img4{
+    width: 98px;
+    height: 80px;
+    margin-left: -5px;
+}
+.maindiv .subdiv .alllinks #img5{
+    width: 100px;
+    height: 70px;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+.maindiv .subdiv .alllinks #img6{
+    
+    height: 78px; 
+    margin-left: -12px;
+    margin-top: 7px;
+}
+
+
+.maindiv .subdiv .alllinks .link1{
+    margin-left: -60px;
+}
+.maindiv .subdiv .alllinks .link2{
+    margin-left: -87px;
+}
+.maindiv .subdiv .alllinks .link3{
+    margin-left: -110px;
+}
+.maindiv .subdiv .alllinks .link4{
+    margin-left: -3px;
+}
+.maindiv .subdiv .alllinks .link5{
+    margin-left: -4px;
+}
+.maindiv .subdiv .alllinks .link6{
+    margin-left: -5px;
+}
+
+.maindiv .subdiv .alllinks .link i{
+    width: 45%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: rgb(81,81,81);
+    font-size: 18px;
+    padding-right: 20px;
+}
